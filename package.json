@@ -4,7 +4,8 @@
   "description": "App to shrink image sizes",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dev": "nodemon --exec electron . -e .js,html,css"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/Hosamov/image-shrink#readme",
   "devDependencies": {
-    "electron": "^16.0.5"
+    "electron": "^16.0.5",
+    "nodemon": "^2.0.15"
   }
 }
